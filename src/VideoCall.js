@@ -16,6 +16,7 @@ class VideoCall extends React.Component {
     const vk = new VideoKit({
       apiKey: 'cz1b1K281mN1ol3de1W1R2y1Ig',
       callId,
+      modules: ['actions'],
     })
 
     vk.mount(this.videoCallRef.current)
