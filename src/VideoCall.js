@@ -17,6 +17,7 @@ class VideoCall extends React.Component {
       apiKey: 'cz1b1K281mN1ol3de1W1R2y1Ig',
       callId,
       modules: ['actions'],
+      actions: ['screenshare', 'settings', 'status', 'leave'],
     })
 
     vk.mount(this.videoCallRef.current)
