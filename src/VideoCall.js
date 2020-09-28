@@ -24,8 +24,25 @@ class VideoCall extends React.Component {
   }
 
   render() {
+    const { href } = window.location
+
+    function copyUrlToClipboard() {
+      const el = document.createElement('textarea')
+      el.value = href
+      el.setAttribute('readonly', '')
+      el.style.position = 'absolute'
+      el.style.left = '-9999px'
+      document.body.appendChild(el)
+      el.select()
+      document.execCommand('copy')
+      document.body.removeChild(el)
+    }
+
     return (
-      <div className={styles.VideoCall} ref={this.videoCallRef} />
+      <>
+        <p>Share <button className="knopf link" title={href} onClick={copyUrlToClipboard}>this url</button> for others to join your call</p>
+        <div className={styles.VideoCall} ref={this.videoCallRef} />
+      </>
     )
   }
 }
