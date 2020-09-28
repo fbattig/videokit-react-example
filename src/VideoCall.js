@@ -20,6 +20,10 @@ class VideoCall extends React.Component {
       actions: ['screenshare', 'settings', 'status', 'leave'],
     })
 
+    vk.on('leftCall', () => {
+      this.props.history.push('/')
+    })
+
     vk.mount(this.videoCallRef.current)
   }
 
