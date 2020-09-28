@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/videokit-react-example/static/css/main.6c8e6350.chunk.css",
+    "main.js": "/videokit-react-example/static/js/main.c0a6945b.chunk.js",
+    "main.js.map": "/videokit-react-example/static/js/main.c0a6945b.chunk.js.map",
+    "runtime-main.js": "/videokit-react-example/static/js/runtime-main.bd2d0568.js",
+    "runtime-main.js.map": "/videokit-react-example/static/js/runtime-main.bd2d0568.js.map",
+    "static/css/2.b747a192.chunk.css": "/videokit-react-example/static/css/2.b747a192.chunk.css",
+    "static/js/2.edc19045.chunk.js": "/videokit-react-example/static/js/2.edc19045.chunk.js",
+    "static/js/2.edc19045.chunk.js.map": "/videokit-react-example/static/js/2.edc19045.chunk.js.map",
+    "index.html": "/videokit-react-example/index.html",
+    "precache-manifest.abbedb5e6b89e4e84d9ab3b8c631e988.js": "/videokit-react-example/precache-manifest.abbedb5e6b89e4e84d9ab3b8c631e988.js",
+    "service-worker.js": "/videokit-react-example/service-worker.js",
+    "static/css/2.b747a192.chunk.css.map": "/videokit-react-example/static/css/2.b747a192.chunk.css.map",
+    "static/css/main.6c8e6350.chunk.css.map": "/videokit-react-example/static/css/main.6c8e6350.chunk.css.map",
+    "static/js/2.edc19045.chunk.js.LICENSE.txt": "/videokit-react-example/static/js/2.edc19045.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd2d0568.js",
+    "static/css/2.b747a192.chunk.css",
+    "static/js/2.edc19045.chunk.js",
+    "static/css/main.6c8e6350.chunk.css",
+    "static/js/main.c0a6945b.chunk.js"
+  ]
+}
